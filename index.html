@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parcijalni ispit</title>
+    <link href="./indexCSS.css" rel="stylesheet">
+    <script src="./indexJS.js" type="text/javascript" defer></script>
+</head>
+<body>
+    <div>
+        <form 
+        name="kontakt_obrazac"
+        action=""
+        method="post"
+        enctype="text/plain"
+        autocomplete="off">
+   <img src="./slika.jpg" alt="profile icon"><br>
+   
+   <label for="email" name="email">Korisničko ime *<span>(e-mail)</span></label> <br>
+   <input id="email" value="" placeholder="Unesite korisničko ime" required> <br>
+
+   <label for="lozinka" name="lozinka">Lozinka *</label> <br>
+   <input id="lozinka" name="lozinka" type="password" value="" placeholder="Unesite lozinku" required> <br>
+
+<button id="submit" type="submit" onclick="emailvalidation()">Login</button> 
+
+    </div>
+    <div>
+        <button id="registr" type="button"><a href="./homepage.html" target="_blank">Registracija</a>
+        </button> 
+    </form>  
+</div>
+    
+</body>
+</html>
