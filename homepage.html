@@ -4,23 +4,49 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Homepage</title>
-  </head>
+    <link rel="stylesheet" href="./homepageCSS.css">
+    <script type="text/javascript" src="./homepageJS.js" defer> </script>
+</head>
   <header>
-    <nav></nav>
+    <nav>
+
+        <div class="nav">
+        <a class="active" href="#home">Home</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+      </div>
+
+    </nav>
+
+    <h1>Welcome!</h1>
+
   </header>
   <body>
-    <article>
-      <audio src="" controls autoplay></audio>
+
+    <article> 
+        <div id="audio">
+            <audio src="" controls autoplay></audio>
+        </div>
     </article>
 
-    <aside></aside>
+    <aside> 
+        <pre>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Quaerat architecto deserunt eveniet odit consequatur minus, 
+            sapiente placeat fuga laborum, perferendis accusantium dicta autem?
+             Sit cupiditate tempora temporibus earum rerum omnis.
+        </pre>
+    </aside>
 
     <article>
+        <div id="inputs">
       <input id="brojevi" type="number" /> <br />
       <input id="brojevi2" type="number" /> <br />
 
-      <button type="button" onclick="">Usporedi</button>
+      <button type="button" onclick="fu">Usporedi</button>
+    </div>
     </article>
+
     <footer>
       <p id="copyRight"></p>
     </footer>
